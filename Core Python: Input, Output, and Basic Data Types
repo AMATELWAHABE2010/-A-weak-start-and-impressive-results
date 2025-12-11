@@ -154,7 +154,7 @@ total = qty * price
 print(f"Total: {total:.2f}")
 ```
 
----
+
 
 
 --- 
