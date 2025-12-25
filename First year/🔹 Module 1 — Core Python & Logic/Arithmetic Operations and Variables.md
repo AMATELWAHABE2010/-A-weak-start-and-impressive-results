@@ -91,7 +91,7 @@ kinetic_energy = 0.5 * mass * (velocity ** 2)
 # Displaying the result
 print(f"Kinetic Energy: {kinetic_energy} Joules")
 
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+---
 # ⭕ Exercise 2: Circular Path Area
 In this exercise, we calculate the area of a circular path using the mathematical constant $\pi$ and the exponent operator.
 
@@ -109,7 +109,7 @@ area = PI * (radius ** 2)
 
 # Output with 2 decimal places formatting
 print(f"Path Area: {area:.2f} m^2")
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+---
 ✍️ Exercises (Practice)
 
     The Displacement Formula: Ask for v0​ (initial velocity), a (acceleration), and t (time). Calculate distance using: d=v0​t+21​at2. ✅
@@ -117,11 +117,11 @@ print(f"Path Area: {area:.2f} m^2")
     Parity Checker: Ask the user for an integer and use the modulo operator to print True if it's even and False if it's odd. ✅
 
     Temperature Converter: Convert Fahrenheit to Celsius: C=(F−32)×95​. ✅
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+---
 ✅ Solutions (Short)
 
 1.
-Python
+'''Python
 
 v0 = float(input("v0: "))
 a = float(input("a: "))
@@ -130,18 +130,18 @@ d = (v0 * t) + (0.5 * a * (t ** 2))
 print(f"Distance: {d}")
 
 2.
-Python
+'''Python
 
 num = int(input("Enter number: "))
 print(f"Is even? {num % 2 == 0}")
 
 3.
-Python
+'''Python
 
 f = float(input("Fahrenheit: "))
 c = (f - 32) * (5/9)
 print(f"Celsius: {c:.2f}")
+---
 
-
-/End of Lesson 2 — Arithmetic Operations and Variables.
+###End of Lesson 2 — Arithmetic Operations and Variables.
 ----------------------------------You will find the supporting exercises on Wiki's Repository page.---------------------------
