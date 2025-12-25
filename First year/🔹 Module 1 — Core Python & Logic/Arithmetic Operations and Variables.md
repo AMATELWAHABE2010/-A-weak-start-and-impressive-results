@@ -44,7 +44,7 @@ Python
 xG = m1*x1 + m2*x2 / m1 + m2 
 
 # CORRECT: Result = 5 (proper grouping)
-xG = (m1*x1 + m2*x2) / (m1 + m2) 
+xG = (m1 * x1 + m2 * x2) / (m1 + m2) 
 
 C. Variable Naming & Best Practices 🏷️
 
@@ -77,13 +77,19 @@ Python
 
 # Example 1: Kinetic Energy (Ec = 0.5 * m * v^2)
 mass = float(input("Mass (kg): "))
+
 velocity = float(input("Velocity (m/s): "))
+
 kinetic_energy = 0.5 * mass * (velocity ** 2)
+
 print(f"Kinetic Energy: {kinetic_energy} Joules")
 
 # Example 2: Area of a Circular Path (Area = π * r^2)
+
 radius = float(input("Radius (m): "))
+
 area = 3.14159 * (radius ** 2)
+
 print(f"Path Area: {area:.2f} m^2")
 
 ✍️ Exercises (Practice)
