@@ -142,4 +142,6 @@ f = float(input("Fahrenheit: "))
 c = (f - 32) * (5/9)
 print(f"Celsius: {c:.2f}")
 
-End of Lesson 2 — Arithmetic Operations and Variables.
+
+/End of Lesson 2 — Arithmetic Operations and Variables.
+----------------------------------You will find the supporting exercises on Wiki's Repository page.---------------------------
