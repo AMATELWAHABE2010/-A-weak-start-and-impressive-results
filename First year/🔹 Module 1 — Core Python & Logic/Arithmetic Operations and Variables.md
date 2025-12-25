@@ -75,21 +75,38 @@ Naming variables correctly is crucial for code readability and avoiding SyntaxEr
 🧪 Examples (Physics Applications)
 Python
 
-# Example 1: Kinetic Energy (Ec = 0.5 * m * v^2)
-mass = float(input("Mass (kg): "))
+# Example 1:# ⚡ Kinetic Energy Calculator
+This script calculates the energy of an object in motion using the classic physics formula:
+$$E_c = \frac{1}{2}mv^2$$
 
+### 💻 Python Implementation
+```python
+# Taking inputs from the user
+mass = float(input("Mass (kg): "))
 velocity = float(input("Velocity (m/s): "))
 
+# Applying the formula: 0.5 * m * v^2
 kinetic_energy = 0.5 * mass * (velocity ** 2)
 
+# Displaying the result
 print(f"Kinetic Energy: {kinetic_energy} Joules")
 
-# Example 2: Area of a Circular Path (Area = π * r^2)
+# ⭕ Exercise 2: Circular Path Area
+In this exercise, we calculate the area of a circular path using the mathematical constant $\pi$ and the exponent operator.
 
-radius = float(input("Radius (m): "))
+### 📐 The Formula
+$$Area = \pi \times r^2$$
 
-area = 3.14159 * (radius ** 2)
+### 💻 Python Code
+```python
+# Constants and Inputs
+PI = 3.14159
+radius = float(input("Enter the Radius (m): "))
 
+# Calculation using the power operator (**)
+area = PI * (radius ** 2)
+
+# Output with 2 decimal places formatting
 print(f"Path Area: {area:.2f} m^2")
 
 ✍️ Exercises (Practice)
